@@ -1,3 +1,5 @@
+! Title: Antileech Finland
+
 ! is.fi
 www.is.fi##.ticker--20-paid
 www.is.fi##.max-w-main article:has(.paid-indicator)

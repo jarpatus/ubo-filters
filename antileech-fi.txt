@@ -1,0 +1,29 @@
+! is.fi
+www.is.fi##.ticker--20-paid
+www.is.fi##.max-w-main article:has(.paid-indicator)
+www.is.fi##.max-w-main article:has(.vignette-advertorial)
+www.is.fi##.max-w-main article.reel-laneitem
+www.is.fi##.max-w-main article:has(a[href^="/menaiset"])
+www.is.fi##.w-right li:has(.paid-indicator)
+www.is.fi##.w-right article:has(.vignette-advertorial)
+www.is.fi##.w-right article:has(.promo-title-10-sidelane, .promo-title-10-sidelane-neg)
+www.is.fi##.w-right li:has(a[href^="/menaiset"])
+www.is.fi##.w-right article:has(a[href^="https://www.admanager.fi"])
+www.is.fi##.w-right .flex:has(.latest-cover-link)
+www.is.fi##.weather-widget-container
+www.is.fi##.iframe-container.relative
+www.is.fi##.article-actions
+www.is.fi##article.comments
+
+! hs.fi
+www.hs.fi##.max-w-main article:has(.vignette-advertorial)
+www.hs.fi##.max-w-main article:has(a[href^="/pelit"])
+www.hs.fi##.max-w-main article:has(a[href^="/mielipide"])
+www.hs.fi##.max-w-main article:has(.ajanviete-links-wide)
+www.hs.fi##.w-right li:has(a[href^="/mielipide"])
+www.hs.fi##.w-right article:has(.vignette-advertorial)
+www.hs.fi##.w-right .flex:has(.latest-cover-link)
+www.hs.fi##.weather-widget-container
+www.hs.fi##.iframe-container.relative
+www.hs.fi##.article-actions
+www.hs.fi##article.comments

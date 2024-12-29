@@ -1,17 +1,24 @@
 ! Title: Antileech Finland
 
-! is.fi
-www.is.fi##.ticker--20-paid
+! is.fi 
+www.is.fi##.m-auto .ticker--20-paid
+
+www.is.fi##.max-w-main #extra-uutiskirje
+www.is.fi##.max-w-main article.reel-laneitem
+www.is.fi##.max-w-main article.section-theme--is-extra
 www.is.fi##.max-w-main article:has(.paid-indicator)
 www.is.fi##.max-w-main article:has(.vignette-advertorial)
-www.is.fi##.max-w-main article.reel-laneitem
 www.is.fi##.max-w-main article:has(a[href^="/menaiset"])
+www.is.fi##.max-w-main article:has(a[href^="https://kampanjat.is.fi"])
+www.is.fi##.max-w-main article:has(a[href^="https://www.is.fi/lehdet"])
+
 www.is.fi##.w-right li:has(.paid-indicator)
+www.is.fi##.w-right li:has(a[href^="/menaiset"])
 www.is.fi##.w-right article:has(.vignette-advertorial)
 www.is.fi##.w-right article:has(.promo-title-10-sidelane, .promo-title-10-sidelane-neg)
-www.is.fi##.w-right li:has(a[href^="/menaiset"])
 www.is.fi##.w-right article:has(a[href^="https://www.admanager.fi"])
 www.is.fi##.w-right .flex:has(.latest-cover-link)
+
 www.is.fi##.weather-widget-container
 www.is.fi##.iframe-container.relative
 www.is.fi##.article-actions

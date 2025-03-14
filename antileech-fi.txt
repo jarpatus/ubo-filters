@@ -4,15 +4,21 @@
 www.is.fi##.m-auto .ticker--20-paid
 
 www.is.fi##.max-w-main #extra-uutiskirje
+
 www.is.fi##.max-w-main article.reel-laneitem
 www.is.fi##.max-w-main article.section-theme--is-extra
-www.is.fi##.max-w-main article:has(.paid-indicator)
+www.is.fi##.max-w-main article.teaser-m:has(.paid-indicator)
+www.is.fi##.max-w-main article.teaser-m:has(img[alt="Kuvakaappauksia aiemmilta lukijoiden videoilta."])
+www.is.fi##.max-w-main article.list:has(.paid-indicator)
 www.is.fi##.max-w-main article:has(.vignette-advertorial)
+www.is.fi##.max-w-main article:has(a[href^="/terveys"])
 www.is.fi##.max-w-main article:has(a[href^="/menaiset"])
 www.is.fi##.max-w-main article:has(a[href^="https://kampanjat.is.fi"])
 www.is.fi##.max-w-main article:has(a[href^="https://www.is.fi/lehdet"])
+www.is.fi##.max-w-main .related-articles__link:has(.paid-indicator)
 
 www.is.fi##.w-right li:has(.paid-indicator)
+www.is.fi##.w-right li:has(a[href^="/terveys"])
 www.is.fi##.w-right li:has(a[href^="/menaiset"])
 www.is.fi##.w-right article:has(.vignette-advertorial)
 www.is.fi##.w-right article:has(.promo-title-10-sidelane, .promo-title-10-sidelane-neg)
@@ -29,9 +35,12 @@ www.hs.fi##.max-w-main article:has(.vignette-advertorial)
 www.hs.fi##.max-w-main article:has(a[href^="/pelit"])
 www.hs.fi##.max-w-main article:has(a[href^="/mielipide"])
 www.hs.fi##.max-w-main article:has(.ajanviete-links-wide)
-www.hs.fi##.w-right li:has(a[href^="/mielipide"])
+
 www.hs.fi##.w-right article:has(.vignette-advertorial)
+www.hs.fi##.w-right li:has(a[href^="/pelit"])
+www.hs.fi##.w-right li:has(a[href^="/mielipide"])
 www.hs.fi##.w-right .flex:has(.latest-cover-link)
+
 www.hs.fi##.weather-widget-container
 www.hs.fi##.iframe-container.relative
 www.hs.fi##.article-actions

@@ -1,47 +1,100 @@
 ! Title: Antileech Finland
 
+!
+! hs.fi
+!
+
+! Hömppä
+www.hs.fi##.max-w-main article:has(a[href^="/pelit"])
+www.hs.fi##.w-right li:has(a[href^="/pelit"])
+www.hs.fi##.max-w-main article:has(a[href^="/mielipide"])
+www.hs.fi##.w-right article:has(a[href^="/mielipide"])
+
+! Oma mainostus
+www.hs.fi##.w-right .flex:has(a[href^="/lehdet"])
+
+! Lukijoiden videot ja uutisvinkit
+www.hs.fi##.w-right article:has(a[href^="/uutisvinkki"])
+
+! Supersää
+www.hs.fi##.weather-widget-container
+
+! Upotukset (tietovisat, foorumit ynnä muu roska) 
+www.hs.fi##.iframe-container.relative
+
+! Artikkelinäkymän nappulat, kommentit jne.
+www.hs.fi##.text-to-speech__container
+www.hs.fi##.article-body .flex:has(.summary__upper__closed)
+www.hs.fi##.article-actions
+www.hs.fi##.article-tail
+www.hs.fi##article.comments
+
+! Vanhat (?)
+!www.hs.fi##.max-w-main article:has(.vignette-advertorial)
+!www.hs.fi##.max-w-main article:has(.ajanviete-links-wide)
+!www.hs.fi##.w-right article:has(.vignette-advertorial)
+!www.hs.fi##.w-right .flex:has(.latest-cover-link)
+!www.hs.fi##.article-actions
+!www.hs.fi##article.comments
+
+
+!
 ! is.fi 
-www.is.fi##.m-auto .ticker--20-paid
+!
+! .li.nav-bar__link-item -> ylälaidan valikko
+! .m-auto -> ylälaidan "juuri nyt" typpiset uutiset
+! .max-w-main -> etusivun artikkelitiiserit
+! .w-right -> oikean laidan artikkelilistaukset
+!
 
-www.is.fi##.max-w-main #extra-uutiskirje
-
-www.is.fi##.max-w-main article.reel-laneitem
-www.is.fi##.max-w-main article.section-theme--is-extra
+! IS Extra
+www.is.fi##li.nav-bar__link-item:has(a[href^="/extra"])
+www.is.fi##.m-auto a:has(article[data-ab="ticker-20-paid"])
 www.is.fi##.max-w-main article.teaser-m:has(.paid-indicator)
-www.is.fi##.max-w-main article.teaser-m:has(img[alt="Kuvakaappauksia aiemmilta lukijoiden videoilta."])
 www.is.fi##.max-w-main article.list:has(.paid-indicator)
-www.is.fi##.max-w-main article:has(.vignette-advertorial)
-www.is.fi##.max-w-main article:has(a[href^="/terveys"])
-www.is.fi##.max-w-main article:has(a[href^="/menaiset"])
-www.is.fi##.max-w-main article:has(a[href^="https://kampanjat.is.fi"])
-www.is.fi##.max-w-main article:has(a[href^="https://www.is.fi/lehdet"])
-www.is.fi##.max-w-main .related-articles__link:has(.paid-indicator)
-
 www.is.fi##.w-right li:has(.paid-indicator)
-www.is.fi##.w-right li:has(a[href^="/terveys"])
-www.is.fi##.w-right li:has(a[href^="/menaiset"])
-www.is.fi##.w-right article:has(.vignette-advertorial)
-www.is.fi##.w-right article:has(.promo-title-10-sidelane, .promo-title-10-sidelane-neg)
-www.is.fi##.w-right article:has(a[href^="https://www.admanager.fi"])
-www.is.fi##.w-right .flex:has(.latest-cover-link)
 
+! Nopeat
+www.is.fi##.max-w-main article.reel-laneitem
+
+! Hömppä
+www.is.fi##.max-w-main article:has(a[href^="/terveys"])
+www.is.fi##.w-right li:has(a[href^="/terveys"])
+www.is.fi##.max-w-main article:has(a[href^="/menaiset"])
+www.is.fi##.w-right li:has(a[href^="/menaiset"])
+www.is.fi##.max-w-main article:has(a[href^="/kuninkaalliset"])
+www.is.fi##.w-right li:has(a[href^="/kuninkaalliset"])
+
+! Oma mainostus
+www.is.fi##.max-w-main article:has(a[href^="https://www.is.fi/lehdet"])
+www.is.fi##.w-right .flex:has(a[href^="/lehti/iltasanomat"])
+www.is.fi##.max-w-main article:has(a[href^="https://kampanjat.is.fi"])
+www.is.fi##.w-right .article:has(a[href^="https://kampanjat.is.fi"])
+
+! Lukijoiden videot ja uutisvinkit
+www.is.fi##.max-w-main article.teaser-m:has(img[alt="Kuvakaappauksia aiemmilta lukijoiden videoilta."])
+www.is.fi##.max-w-main article:has(.video-indicator)
+www.is.fi##.w-right article:has(a[href^="/uutisvinkki"])
+
+! Supersää
 www.is.fi##.weather-widget-container
+
+! Upotukset (tietovisat, foorumit ynnä muu roska) 
 www.is.fi##.iframe-container.relative
+
+! Artikkelinäkymän nappulat, kommentit jne.
+www.is.fi##.text-to-speech__container
+www.is.fi##.article-body .flex:has(.summary__upper__closed)
 www.is.fi##.article-actions
+www.is.fi##.article-tail
 www.is.fi##article.comments
 
-! hs.fi
-www.hs.fi##.max-w-main article:has(.vignette-advertorial)
-www.hs.fi##.max-w-main article:has(a[href^="/pelit"])
-www.hs.fi##.max-w-main article:has(a[href^="/mielipide"])
-www.hs.fi##.max-w-main article:has(.ajanviete-links-wide)
+! Vanhat (?)
+!www.is.fi##.max-w-main article:has(.vignette-advertorial)
+!www.is.fi##.max-w-main .related-articles__link:has(.paid-indicator)
+!www.is.fi##.w-right article:has(.vignette-advertorial)
+!www.is.fi##.w-right article:has(.promo-title-10-sidelane, .promo-title-10-sidelane-neg)
+!www.is.fi##.w-right article:has(a[href^="https://www.admanager.fi"])
+!www.is.fi##.w-right .flex:has(.latest-cover-link)
 
-www.hs.fi##.w-right article:has(.vignette-advertorial)
-www.hs.fi##.w-right li:has(a[href^="/pelit"])
-www.hs.fi##.w-right li:has(a[href^="/mielipide"])
-www.hs.fi##.w-right .flex:has(.latest-cover-link)
 
-www.hs.fi##.weather-widget-container
-www.hs.fi##.iframe-container.relative
-www.hs.fi##.article-actions
-www.hs.fi##article.comments
